@@ -66,11 +66,13 @@ struct CablePredicate {// both edge and vertex
 using CableFiltered_Graph_t = boost::filtered_graph<Graph_t, CablePredicate, CablePredicate>;
 
 
-int main(int argc, char **argv)  {
+int his_main(int argc, char **argv)  {
     Graph_t *g=new Graph_t, *gin=new Graph_t, *ginter, *g2=new Graph_t;
     string filename, path,filter;
     int iterationIndex=0;
     AlgoType algo;
+    
+
     if( argc > 2 ) {
         string command1(argv[1]);
         if (command1 == "-P") {
@@ -106,6 +108,54 @@ int main(int argc, char **argv)  {
 
     double oldRescaling=1.0;
     int numIteration=20;
+//    ricci_flow(g, numIteration, iterationIndex,path, algo);
+    ricci_flow(g2, numIteration,iterationIndex,path,algo);
+
+    return 0;
+
+}
+
+
+int main(int argc, char **argv)  {
+    Graph_t *g=new Graph_t, *gin=new Graph_t, *ginter, *g2=new Graph_t;
+    string filename, path,filter;
+    int iterationIndex=0;
+    AlgoType algo;
+    
+    algo = MSMD; 
+    string result_path = ".";
+    string graph_path;
+
+    double oldRescaling=1.0;
+    int numIteration=20;
+
+    if( argc > 2 ) {
+        string command1(argv[1]);
+        if (command1 == "-P") {
+            result_path=string(argv[2]);
+        }
+        string command2(argv[3]);
+        if (command2 =="-G")
+            graph_path= string(argv[4]);
+        string command3(argv[5]);
+        if (command3 =="-NI")
+            numIteration = int(argv[6]);
+    }
+
+    
+     
+
+    string pfilename=path+"/"+filename;
+    readGraphMLFile(*gin,graph_path );
+    k_core2(*gin,*g, 2);
+    CablePredicate predicate(g,filter);
+    CableFiltered_Graph_t fg(*g, predicate, predicate);
+    copy_graph(fg,*g2);
+    int negin=num_edges(*g), necable=num_edges(*g2);
+    cout<<negin<<","<<necable<<endl;
+
+
+    
 //    ricci_flow(g, numIteration, iterationIndex,path, algo);
     ricci_flow(g2, numIteration,iterationIndex,path,algo);
 
