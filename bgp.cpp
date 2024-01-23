@@ -68,8 +68,6 @@ struct CablePredicate {// both edge and vertex
 using CableFiltered_Graph_t = boost::filtered_graph<Graph_t, CablePredicate, CablePredicate>;
 
 
-
-
 int main(int argc, char **argv)  {
     Graph_t *g=new Graph_t, *gin=new Graph_t, *ginter, *g2=new Graph_t;
     string filename, path;

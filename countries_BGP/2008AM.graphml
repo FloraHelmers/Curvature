@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d15" for="edge" attr.name="id" attr.type="string"/>
-<key id="d14" for="edge" attr.name="weight" attr.type="long"/>
-<key id="d13" for="edge" attr.name="prefCount" attr.type="long"/>
-<key id="d12" for="edge" attr.name="pathCount" attr.type="long"/>
-<key id="d11" for="edge" attr.name="edgeTime" attr.type="long"/>
-<key id="d10" for="edge" attr.name="addCount" attr.type="long"/>
+<key id="d14" for="edge" attr.name="weight" attr.type="int"/>
+<key id="d13" for="edge" attr.name="prefCount" attr.type="int"/>
+<key id="d12" for="edge" attr.name="pathCount" attr.type="int"/>
+<key id="d11" for="edge" attr.name="edgeTime" attr.type="int"/>
+<key id="d10" for="edge" attr.name="addCount" attr.type="int"/>
 <key id="d9" for="node" attr.name="ID" attr.type="string"/>
-<key id="d8" for="node" attr.name="prefixNum" attr.type="long"/>
-<key id="d7" for="node" attr.name="prefixAll" attr.type="long"/>
-<key id="d6" for="node" attr.name="pathNum" attr.type="long"/>
-<key id="d5" for="node" attr.name="asTime" attr.type="long"/>
+<key id="d8" for="node" attr.name="prefixNum" attr.type="int"/>
+<key id="d7" for="node" attr.name="prefixAll" attr.type="int"/>
+<key id="d6" for="node" attr.name="pathNum" attr.type="int"/>
+<key id="d5" for="node" attr.name="asTime" attr.type="int"/>
 <key id="d4" for="node" attr.name="asNumber" attr.type="string"/>
-<key id="d3" for="node" attr.name="addNum" attr.type="long"/>
-<key id="d2" for="node" attr.name="addAll" attr.type="long"/>
+<key id="d3" for="node" attr.name="addNum" attr.type="int"/>
+<key id="d2" for="node" attr.name="addAll" attr.type="int"/>
 <key id="d1" for="node" attr.name="Name" attr.type="string"/>
 <key id="d0" for="node" attr.name="Country" attr.type="string"/>
 <graph edgedefault="undirected"><node id="n26181">
