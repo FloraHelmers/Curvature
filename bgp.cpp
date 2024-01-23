@@ -86,8 +86,7 @@ int main(int argc, char **argv)  {
     int numIteration=20;
 
     if( argc > 2 ) {
-        string command1(argv[1]);However I do note that you're using GraphData in the position that corresponds tot the Vertex properties bundle.
-            numIteration = stoi(argv[6]);
+        string command1(argv[1]);
     }
 
     //string pfilename=path+"/"+filename;
