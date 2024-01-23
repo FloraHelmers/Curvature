@@ -37,16 +37,15 @@ void readGraphMLFile (Graph_t& designG, std::string &fileName ) {
 
     dp = gettingProperties<Graph_t,VertexType,EdgeType>(designG);
 
-    cout << "opening "<< fileName << "\n"; 
-
+    cout << "Opening " << fileName << "--" << endl; 
     inFile.open(fileName, ifstream::in);
     try {
         boost::read_graphml(inFile, designG, dp, 0);
         cout << "Graph loaded \n"; 
     }
     catch (const std::exception &exc) {
-        cout << "Error reading the graph " <<endl; 
-        cerr << exc.what() << std::endl;
+        cout << "Error while loading the graph \n";
+        cerr << exc.what();
         cout << " Type: " << typeid(exc).name() << "\n";
     }
     cout << "Num Vertices: " << num_vertices(designG) << endl;
@@ -87,6 +86,15 @@ int main(int argc, char **argv)  {
 
     if( argc > 2 ) {
         string command1(argv[1]);
+        if (command1 == "-P") {
+            result_path=string(argv[2]);
+        }
+        string command2(argv[3]);
+        if (command2 =="-G")
+            graph_path= string(argv[4]);
+        string command3(argv[5]);
+        if (command3 =="-NI")
+            numIteration = stoi(argv[6]);
     }
 
     //string pfilename=path+"/"+filename;
