@@ -118,7 +118,8 @@ int his_main(int argc, char **argv)  {
 
 int main(int argc, char **argv)  {
     Graph_t *g=new Graph_t, *gin=new Graph_t, *ginter, *g2=new Graph_t;
-    string filename, path,filter;
+    string filename, path;
+    string filter; //useful? 
     int iterationIndex=0;
     AlgoType algo;
     
@@ -145,7 +146,7 @@ int main(int argc, char **argv)  {
     
      
 
-    string pfilename=path+"/"+filename;
+    //string pfilename=path+"/"+filename;
     readGraphMLFile(*gin,graph_path );
     k_core2(*gin,*g, 2);
     CablePredicate predicate(g,filter);
@@ -157,7 +158,7 @@ int main(int argc, char **argv)  {
 
     
 //    ricci_flow(g, numIteration, iterationIndex,path, algo);
-    ricci_flow(g2, numIteration,iterationIndex,path,algo);
+    ricci_flow(g2, numIteration,iterationIndex,result_path,algo);
 
     return 0;
 
