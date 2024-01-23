@@ -26,7 +26,7 @@ typedef unsigned int uint;
 
 boost::dynamic_properties dp;
 
-/*
+/*q
  * Read a graphml
  */
 void readGraphMLFile (Graph_t& designG, std::string &fileName ) {
@@ -37,6 +37,7 @@ void readGraphMLFile (Graph_t& designG, std::string &fileName ) {
 
     dp = gettingProperties<Graph_t,VertexType,EdgeType>(designG);
 
+    cout << "opening "<< fileName << "\n"; 
 
     inFile.open(fileName, ifstream::in);
     try {
@@ -44,7 +45,8 @@ void readGraphMLFile (Graph_t& designG, std::string &fileName ) {
         cout << "Graph loaded \n"; 
     }
     catch (const std::exception &exc) {
-        cerr << exc.what();
+        cout << "Error reading the graph " <<endl; 
+        cerr << exc.what() << std::endl;
         cout << " Type: " << typeid(exc).name() << "\n";
     }
     cout << "Num Vertices: " << num_vertices(designG) << endl;
@@ -84,15 +86,7 @@ int main(int argc, char **argv)  {
     int numIteration=20;
 
     if( argc > 2 ) {
-        string command1(argv[1]);
-        if (command1 == "-P") {
-            result_path=string(argv[2]);
-        }
-        string command2(argv[3]);
-        if (command2 =="-G")
-            graph_path= string(argv[4]);
-        string command3(argv[5]);
-        if (command3 =="-NI")
+        string command1(argv[1]);However I do note that you're using GraphData in the position that corresponds tot the Vertex properties bundle.
             numIteration = stoi(argv[6]);
     }
 
