@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d15" for="edge" attr.name="id" attr.type="string"/>
-<key id="d14" for="edge" attr.name="weight" attr.type="int"/>
-<key id="d13" for="edge" attr.name="prefCount" attr.type="int"/>
+<key id="d14" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d13" for="edge" attr.name="prefcount" attr.type="int"/>
 <key id="d12" for="edge" attr.name="pathCount" attr.type="int"/>
 <key id="d11" for="edge" attr.name="edgeTime" attr.type="int"/>
 <key id="d10" for="edge" attr.name="addCount" attr.type="int"/>
-<key id="d9" for="node" attr.name="ID" attr.type="string"/>
 <key id="d8" for="node" attr.name="prefixNum" attr.type="int"/>
 <key id="d7" for="node" attr.name="prefixAll" attr.type="int"/>
 <key id="d6" for="node" attr.name="pathNum" attr.type="int"/>
@@ -25,7 +24,6 @@
   <data key="d6">0</data>
   <data key="d7">1</data>
   <data key="d8">1</data>
-  <data key="d9">n26181</data>
 </node>
 <node id="n9251">
   <data key="d0">RU</data>
@@ -37,7 +35,7 @@
   <data key="d6">0</data>
   <data key="d7">11</data>
   <data key="d8">11</data>
-  <data key="d9">n9251</data>
+  
 </node>
 <node id="n24919">
   <data key="d0">AM</data>
@@ -49,7 +47,6 @@
   <data key="d6">0</data>
   <data key="d7">1</data>
   <data key="d8">1</data>
-  <data key="d9">n24919</data>
 </node>
 <node id="n25556">
   <data key="d0">XX</data>
@@ -61,7 +58,6 @@
   <data key="d6">0</data>
   <data key="d7">5</data>
   <data key="d8">5</data>
-  <data key="d9">n25556</data>
 </node>
 <node id="n15911">
   <data key="d0">AM</data>
@@ -73,7 +69,6 @@
   <data key="d6">0</data>
   <data key="d7">10</data>
   <data key="d8">10</data>
-  <data key="d9">n15911</data>
 </node>
 <node id="n24873">
   <data key="d0">AM</data>
@@ -85,7 +80,6 @@
   <data key="d6">0</data>
   <data key="d7">13</data>
   <data key="d8">13</data>
-  <data key="d9">n24873</data>
 </node>
 <node id="n16260">
   <data key="d0">AM</data>
@@ -97,7 +91,6 @@
   <data key="d6">0</data>
   <data key="d7">8</data>
   <data key="d8">8</data>
-  <data key="d9">n16260</data>
 </node>
 <node id="n10525">
   <data key="d0">GE</data>
@@ -109,7 +102,6 @@
   <data key="d6">0</data>
   <data key="d7">8</data>
   <data key="d8">8</data>
-  <data key="d9">n10525</data>
 </node>
 <node id="n25293">
   <data key="d0">AM</data>
@@ -121,7 +113,6 @@
   <data key="d6">0</data>
   <data key="d7">5</data>
   <data key="d8">5</data>
-  <data key="d9">n25293</data>
 </node>
 <node id="n25634">
   <data key="d0">AM</data>
@@ -133,7 +124,6 @@
   <data key="d6">0</data>
   <data key="d7">1</data>
   <data key="d8">1</data>
-  <data key="d9">n25634</data>
 </node>
 <node id="n11040">
   <data key="d0">RU</data>
@@ -145,7 +135,6 @@
   <data key="d6">0</data>
   <data key="d7">69</data>
   <data key="d8">69</data>
-  <data key="d9">n11040</data>
 </node>
 <node id="n11038">
   <data key="d0">AM</data>
@@ -157,7 +146,6 @@
   <data key="d6">0</data>
   <data key="d7">5</data>
   <data key="d8">5</data>
-  <data key="d9">n11038</data>
 </node>
 <node id="n25240">
   <data key="d0">AM</data>
@@ -169,7 +157,6 @@
   <data key="d6">0</data>
   <data key="d7">5</data>
   <data key="d8">5</data>
-  <data key="d9">n25240</data>
 </node>
 <node id="n11039">
   <data key="d0">AM</data>
@@ -181,7 +168,6 @@
   <data key="d6">0</data>
   <data key="d7">26</data>
   <data key="d8">26</data>
-  <data key="d9">n11039</data>
 </node>
 <node id="n26657">
   <data key="d0">RU</data>
@@ -193,7 +179,6 @@
   <data key="d6">0</data>
   <data key="d7">4</data>
   <data key="d8">4</data>
-  <data key="d9">n26657</data>
 </node>
 <node id="n10676">
   <data key="d0">NO</data>
@@ -205,7 +190,6 @@
   <data key="d6">0</data>
   <data key="d7">28</data>
   <data key="d8">28</data>
-  <data key="d9">n10676</data>
 </node>
 <node id="n3316">
   <data key="d0">NL</data>
@@ -217,7 +201,6 @@
   <data key="d6">0</data>
   <data key="d7">11</data>
   <data key="d8">11</data>
-  <data key="d9">n3316</data>
 </node>
 <node id="n9235">
   <data key="d0">UA</data>
@@ -229,7 +212,6 @@
   <data key="d6">0</data>
   <data key="d7">13</data>
   <data key="d8">13</data>
-  <data key="d9">n9235</data>
 </node>
 <node id="n28">
   <data key="d0">US</data>
@@ -241,7 +223,6 @@
   <data key="d6">0</data>
   <data key="d7">798</data>
   <data key="d8">798</data>
-  <data key="d9">n28</data>
 </node>
 <node id="n11041">
   <data key="d0">AM</data>
@@ -253,7 +234,6 @@
   <data key="d6">0</data>
   <data key="d7">3</data>
   <data key="d8">3</data>
-  <data key="d9">n11041</data>
 </node>
 <node id="n24794">
   <data key="d0">AM</data>
@@ -265,7 +245,6 @@
   <data key="d6">0</data>
   <data key="d7">9</data>
   <data key="d8">9</data>
-  <data key="d9">n24794</data>
 </node>
 <edge source="n26181" target="n9251">
   <data key="d10">0</data>
