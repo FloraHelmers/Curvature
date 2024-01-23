@@ -1,0 +1,518 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d15" for="edge" attr.name="id" attr.type="string"/>
+<key id="d14" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d13" for="edge" attr.name="prefCount" attr.type="long"/>
+<key id="d12" for="edge" attr.name="pathCount" attr.type="long"/>
+<key id="d11" for="edge" attr.name="edgeTime" attr.type="long"/>
+<key id="d10" for="edge" attr.name="addCount" attr.type="long"/>
+<key id="d9" for="node" attr.name="ID" attr.type="string"/>
+<key id="d8" for="node" attr.name="prefixNum" attr.type="long"/>
+<key id="d7" for="node" attr.name="prefixAll" attr.type="long"/>
+<key id="d6" for="node" attr.name="pathNum" attr.type="long"/>
+<key id="d5" for="node" attr.name="asTime" attr.type="long"/>
+<key id="d4" for="node" attr.name="asNumber" attr.type="string"/>
+<key id="d3" for="node" attr.name="addNum" attr.type="long"/>
+<key id="d2" for="node" attr.name="addAll" attr.type="long"/>
+<key id="d1" for="node" attr.name="Name" attr.type="string"/>
+<key id="d0" for="node" attr.name="Country" attr.type="string"/>
+<graph edgedefault="undirected"><node id="n26181">
+  <data key="d0">AM</data>
+  <data key="d1">Rayonline-as</data>
+  <data key="d2">8</data>
+  <data key="d3">8</data>
+  <data key="d4">39355</data>
+  <data key="d5">1199165799</data>
+  <data key="d6">0</data>
+  <data key="d7">1</data>
+  <data key="d8">1</data>
+  <data key="d9">n26181</data>
+</node>
+<node id="n9251">
+  <data key="d0">RU</data>
+  <data key="d1">ERTH-Tomline-AS</data>
+  <data key="d2">45</data>
+  <data key="d3">45</data>
+  <data key="d4">25446</data>
+  <data key="d5">1199165809</data>
+  <data key="d6">0</data>
+  <data key="d7">11</data>
+  <data key="d8">11</data>
+  <data key="d9">n9251</data>
+</node>
+<node id="n24919">
+  <data key="d0">AM</data>
+  <data key="d1">HI-TECH</data>
+  <data key="d2">8</data>
+  <data key="d3">8</data>
+  <data key="d4">43845</data>
+  <data key="d5">1199145600</data>
+  <data key="d6">0</data>
+  <data key="d7">1</data>
+  <data key="d8">1</data>
+  <data key="d9">n24919</data>
+</node>
+<node id="n25556">
+  <data key="d0">XX</data>
+  <data key="d1">XX</data>
+  <data key="d2">32</data>
+  <data key="d3">32</data>
+  <data key="d4">31166</data>
+  <data key="d5">1199163995</data>
+  <data key="d6">0</data>
+  <data key="d7">5</data>
+  <data key="d8">5</data>
+  <data key="d9">n25556</data>
+</node>
+<node id="n15911">
+  <data key="d0">AM</data>
+  <data key="d1">ORG-CCJS1-RIPE</data>
+  <data key="d2">33</data>
+  <data key="d3">33</data>
+  <data key="d4">33852</data>
+  <data key="d5">1199146527</data>
+  <data key="d6">0</data>
+  <data key="d7">10</data>
+  <data key="d8">10</data>
+  <data key="d9">n15911</data>
+</node>
+<node id="n24873">
+  <data key="d0">AM</data>
+  <data key="d1">AM-NETSYS-AS</data>
+  <data key="d2">16</data>
+  <data key="d3">16</data>
+  <data key="d4">21104</data>
+  <data key="d5">1199146527</data>
+  <data key="d6">0</data>
+  <data key="d7">13</data>
+  <data key="d8">13</data>
+  <data key="d9">n24873</data>
+</node>
+<node id="n16260">
+  <data key="d0">AM</data>
+  <data key="d1">AM-NIC-AS</data>
+  <data key="d2">82</data>
+  <data key="d3">82</data>
+  <data key="d4">8226</data>
+  <data key="d5">1199146527</data>
+  <data key="d6">0</data>
+  <data key="d7">8</data>
+  <data key="d8">8</data>
+  <data key="d9">n16260</data>
+</node>
+<node id="n10525">
+  <data key="d0">GE</data>
+  <data key="d1">GRT-AS</data>
+  <data key="d2">16</data>
+  <data key="d3">16</data>
+  <data key="d4">41877</data>
+  <data key="d5">1199165799</data>
+  <data key="d6">0</data>
+  <data key="d7">8</data>
+  <data key="d8">8</data>
+  <data key="d9">n10525</data>
+</node>
+<node id="n25293">
+  <data key="d0">AM</data>
+  <data key="d1">ADC-AS</data>
+  <data key="d2">8</data>
+  <data key="d3">8</data>
+  <data key="d4">42109</data>
+  <data key="d5">1199145600</data>
+  <data key="d6">0</data>
+  <data key="d7">5</data>
+  <data key="d8">5</data>
+  <data key="d9">n25293</data>
+</node>
+<node id="n25634">
+  <data key="d0">AM</data>
+  <data key="d1">K-Telecom</data>
+  <data key="d2">2</data>
+  <data key="d3">2</data>
+  <data key="d4">43733</data>
+  <data key="d5">1199145600</data>
+  <data key="d6">0</data>
+  <data key="d7">1</data>
+  <data key="d8">1</data>
+  <data key="d9">n25634</data>
+</node>
+<node id="n11040">
+  <data key="d0">RU</data>
+  <data key="d1">SatGate</data>
+  <data key="d2">89</data>
+  <data key="d3">89</data>
+  <data key="d4">30721</data>
+  <data key="d5">1199146527</data>
+  <data key="d6">0</data>
+  <data key="d7">69</data>
+  <data key="d8">69</data>
+  <data key="d9">n11040</data>
+</node>
+<node id="n11038">
+  <data key="d0">AM</data>
+  <data key="d1">MTS-ARMENIA-AS</data>
+  <data key="d2">16</data>
+  <data key="d3">16</data>
+  <data key="d4">41965</data>
+  <data key="d5">1199146433</data>
+  <data key="d6">0</data>
+  <data key="d7">5</data>
+  <data key="d8">5</data>
+  <data key="d9">n11038</data>
+</node>
+<node id="n25240">
+  <data key="d0">AM</data>
+  <data key="d1">CROSSNET</data>
+  <data key="d2">16</data>
+  <data key="d3">16</data>
+  <data key="d4">39863</data>
+  <data key="d5">1199145600</data>
+  <data key="d6">0</data>
+  <data key="d7">5</data>
+  <data key="d8">5</data>
+  <data key="d9">n25240</data>
+</node>
+<node id="n11039">
+  <data key="d0">AM</data>
+  <data key="d1">AS16190</data>
+  <data key="d2">48</data>
+  <data key="d3">48</data>
+  <data key="d4">16190</data>
+  <data key="d5">1199146527</data>
+  <data key="d6">0</data>
+  <data key="d7">26</data>
+  <data key="d8">26</data>
+  <data key="d9">n11039</data>
+</node>
+<node id="n26657">
+  <data key="d0">RU</data>
+  <data key="d1">HNET-AS</data>
+  <data key="d2">4</data>
+  <data key="d3">4</data>
+  <data key="d4">42991</data>
+  <data key="d5">1199145600</data>
+  <data key="d6">0</data>
+  <data key="d7">4</data>
+  <data key="d8">4</data>
+  <data key="d9">n26657</data>
+</node>
+<node id="n10676">
+  <data key="d0">NO</data>
+  <data key="d1">MARLINK-EMEA</data>
+  <data key="d2">431</data>
+  <data key="d3">431</data>
+  <data key="d4">5377</data>
+  <data key="d5">1199145600</data>
+  <data key="d6">0</data>
+  <data key="d7">28</data>
+  <data key="d8">28</data>
+  <data key="d9">n10676</data>
+</node>
+<node id="n3316">
+  <data key="d0">NL</data>
+  <data key="d1">CITIC</data>
+  <data key="d2">115</data>
+  <data key="d3">115</data>
+  <data key="d4">3327</data>
+  <data key="d5">1199165951</data>
+  <data key="d6">0</data>
+  <data key="d7">11</data>
+  <data key="d8">11</data>
+  <data key="d9">n3316</data>
+</node>
+<node id="n9235">
+  <data key="d0">UA</data>
+  <data key="d1">UKRTELNET</data>
+  <data key="d2">996</data>
+  <data key="d3">996</data>
+  <data key="d4">6849</data>
+  <data key="d5">1199158161</data>
+  <data key="d6">0</data>
+  <data key="d7">13</data>
+  <data key="d8">13</data>
+  <data key="d9">n9235</data>
+</node>
+<node id="n28">
+  <data key="d0">US</data>
+  <data key="d1">SPRINTLINK</data>
+  <data key="d2">42895</data>
+  <data key="d3">42895</data>
+  <data key="d4">1239</data>
+  <data key="d5">1199167197</data>
+  <data key="d6">0</data>
+  <data key="d7">798</data>
+  <data key="d8">798</data>
+  <data key="d9">n28</data>
+</node>
+<node id="n11041">
+  <data key="d0">AM</data>
+  <data key="d1">TELECOM-ARMENIA</data>
+  <data key="d2">32</data>
+  <data key="d3">32</data>
+  <data key="d4">12297</data>
+  <data key="d5">1199145600</data>
+  <data key="d6">0</data>
+  <data key="d7">3</data>
+  <data key="d8">3</data>
+  <data key="d9">n11041</data>
+</node>
+<node id="n24794">
+  <data key="d0">AM</data>
+  <data key="d1">MEDIALIFE-AS</data>
+  <data key="d2">16</data>
+  <data key="d3">16</data>
+  <data key="d4">34492</data>
+  <data key="d5">1199145600</data>
+  <data key="d6">0</data>
+  <data key="d7">9</data>
+  <data key="d8">9</data>
+  <data key="d9">n24794</data>
+</node>
+<edge source="n26181" target="n9251">
+  <data key="d10">0</data>
+  <data key="d11">1199126779</data>
+  <data key="d12">4</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e56425</data>
+</edge>
+<edge source="n24919" target="n11040">
+  <data key="d10">0</data>
+  <data key="d11">1199145600</data>
+  <data key="d12">2</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e54787</data>
+</edge>
+<edge source="n25556" target="n11038">
+  <data key="d10">0</data>
+  <data key="d11">1199145600</data>
+  <data key="d12">4</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e55602</data>
+</edge>
+<edge source="n25556" target="n11040">
+  <data key="d10">0</data>
+  <data key="d11">1199146480</data>
+  <data key="d12">20</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e55599</data>
+</edge>
+<edge source="n25556" target="n11041">
+  <data key="d10">0</data>
+  <data key="d11">1199163900</data>
+  <data key="d12">143</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e55787</data>
+</edge>
+<edge source="n25556" target="n25634">
+  <data key="d10">0</data>
+  <data key="d11">1199145600</data>
+  <data key="d12">2</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e55704</data>
+</edge>
+<edge source="n15911" target="n11038">
+  <data key="d10">0</data>
+  <data key="d11">1199146461</data>
+  <data key="d12">8</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e55540</data>
+</edge>
+<edge source="n15911" target="n11040">
+  <data key="d10">0</data>
+  <data key="d11">1199146480</data>
+  <data key="d12">47</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e36126</data>
+</edge>
+<edge source="n15911" target="n11041">
+  <data key="d10">0</data>
+  <data key="d11">1199145600</data>
+  <data key="d12">4</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e55495</data>
+</edge>
+<edge source="n24873" target="n10676">
+  <data key="d10">0</data>
+  <data key="d11">1199145600</data>
+  <data key="d12">2</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e55023</data>
+</edge>
+<edge source="n24873" target="n11040">
+  <data key="d10">0</data>
+  <data key="d11">1199146480</data>
+  <data key="d12">20</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e54731</data>
+</edge>
+<edge source="n24873" target="n11041">
+  <data key="d10">0</data>
+  <data key="d11">1199146470</data>
+  <data key="d12">13</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e54733</data>
+</edge>
+<edge source="n16260" target="n11038">
+  <data key="d10">0</data>
+  <data key="d11">1199146445</data>
+  <data key="d12">8</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e59193</data>
+</edge>
+<edge source="n16260" target="n11040">
+  <data key="d10">0</data>
+  <data key="d11">1199146480</data>
+  <data key="d12">51</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e36763</data>
+</edge>
+<edge source="n16260" target="n11041">
+  <data key="d10">0</data>
+  <data key="d11">1199145600</data>
+  <data key="d12">26</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e41579</data>
+</edge>
+<edge source="n16260" target="n25240">
+  <data key="d10">0</data>
+  <data key="d11">1199126735</data>
+  <data key="d12">3</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e55367</data>
+</edge>
+<edge source="n10525" target="n3316">
+  <data key="d10">0</data>
+  <data key="d11">1199123133</data>
+  <data key="d12">13</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e45146</data>
+</edge>
+<edge source="n10525" target="n11038">
+  <data key="d10">0</data>
+  <data key="d11">1199145600</data>
+  <data key="d12">6</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e54186</data>
+</edge>
+<edge source="n25293" target="n10676">
+  <data key="d10">0</data>
+  <data key="d11">1199145600</data>
+  <data key="d12">2</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e55240</data>
+</edge>
+<edge source="n25293" target="n11038">
+  <data key="d10">0</data>
+  <data key="d11">1199145600</data>
+  <data key="d12">4</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e57040</data>
+</edge>
+<edge source="n25293" target="n11041">
+  <data key="d10">0</data>
+  <data key="d11">1199145600</data>
+  <data key="d12">2</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e56941</data>
+</edge>
+<edge source="n25293" target="n25240">
+  <data key="d10">0</data>
+  <data key="d11">1199145600</data>
+  <data key="d12">2</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e55241</data>
+</edge>
+<edge source="n11040" target="n3316">
+  <data key="d10">0</data>
+  <data key="d11">1199146461</data>
+  <data key="d12">76</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e28745</data>
+</edge>
+<edge source="n11040" target="n11039">
+  <data key="d10">0</data>
+  <data key="d11">1199146472</data>
+  <data key="d12">76</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e23723</data>
+</edge>
+<edge source="n11038" target="n3316">
+  <data key="d10">0</data>
+  <data key="d11">1199146461</data>
+  <data key="d12">87</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e23720</data>
+</edge>
+<edge source="n11038" target="n11039">
+  <data key="d10">0</data>
+  <data key="d11">1199146461</data>
+  <data key="d12">61</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e23721</data>
+</edge>
+<edge source="n11038" target="n26657">
+  <data key="d10">0</data>
+  <data key="d11">1199145600</data>
+  <data key="d12">4</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e57009</data>
+</edge>
+<edge source="n25240" target="n11041">
+  <data key="d10">0</data>
+  <data key="d11">1199145600</data>
+  <data key="d12">2</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e55179</data>
+</edge>
+<edge source="n11039" target="n11041">
+  <data key="d10">0</data>
+  <data key="d11">1199145600</data>
+  <data key="d12">49</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e23727</data>
+</edge>
+<edge source="n9235" target="n11041">
+  <data key="d10">0</data>
+  <data key="d11">1199163900</data>
+  <data key="d12">305</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e23726</data>
+</edge>
+<edge source="n28" target="n24794">
+  <data key="d10">0</data>
+  <data key="d11">1199145600</data>
+  <data key="d12">2</data>
+  <data key="d13">0</data>
+  <data key="d14">1</data>
+  <data key="d15">e54633</data>
+</edge>
+</graph></graphml>
