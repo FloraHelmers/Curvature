@@ -139,7 +139,7 @@ int main(int argc, char **argv)  {
             graph_path= string(argv[4]);
         string command3(argv[5]);
         if (command3 =="-NI")
-            numIteration = int(argv[6]);
+            numIteration = stoi(argv[6]);
     }
 
     
