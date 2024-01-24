@@ -105,7 +105,7 @@ struct Edge_info_BGP {
     int count;
     int prefcount;
     int addCount=0;
-    string cableName;
+    //string cableName;
     string id;
     double oot=0.0;
     double ot=0.0;
@@ -204,7 +204,7 @@ boost::dynamic_properties gettingProperties(myGraph& g) {
     dpout.property("count", get(&myEdge::count, g));
     dpout.property("distance", get(&myEdge::distance, g));
     dpout.property("ot", get(&myEdge::ot, g));
-    dpout.property("cable",get(&myEdge::cableName,g));
+    //dpout.property("cable",get(&myEdge::cableName,g));
     dpout.property("id",get(&myEdge::id,g));
 
     dpout.property("curv", get(&myEdge::curv, g));
