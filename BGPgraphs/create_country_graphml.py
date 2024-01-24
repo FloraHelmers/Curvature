@@ -9,7 +9,7 @@ resultpath = "country_graphs"
 
 global_graphs = ["2008graphdumps1199167200.1199170800.graphml", "2010graphdumps1262844000.1262847600.graphml", "2014graphdumps1388556000.1388559600.graphml", "2018graphdumps1527832800.1527836400.graphml","2023graphdumps1702188000.1702191600.graphml"]
 print([path[7:11] for path in ["graphs/"+gg for gg in global_graphs]][4])
-for path in [gg+".gz" for gg in global_graphs].reversed():
+for path in [gg+".gz" for gg in global_graphs].reversed()[1, :]:
 #for path in ["graphs/2023graphdumps1702188000.1702191600.graphml"]:
     print(path)
 
