@@ -1366,6 +1366,7 @@ bool triangle_checker(Graph_t &g,int type){
 
 
 void ricci_flow(Graph_t *g, int numIteration, int iterationIndex, const string& path, AlgoType algo) {
+    cout << "Starting Ricci flow \n"; 
     Graph_t *ginter;
     double oldRescaling = 1.0;
     DistanceCache distanceCache(num_vertices(*g));
@@ -1381,10 +1382,13 @@ void ricci_flow(Graph_t *g, int numIteration, int iterationIndex, const string& 
         tt1 = high_resolution_clock::now();
         TaskPriorityQueue tasksToDo;
         numOfShortestPaths = generateTasks(*g, tasksToDo);//      numOfShortestPaths = generateTasks1(*g, tasksToDo);
+
         string logFilename = path + "/processed/logFile." + to_string(index + 1) + ".log";
         logFile.open(logFilename.c_str(), ofstream::out);
+
         string outFilename = path + "/processed/processed." + to_string(index + 1) + ".graphml";
         outFile.open(outFilename.c_str(), ofstream::out);
+
         cout << "Index:" << index << " ";
         numProcessedVertex = 0;
         numProcessedEdge = 0;
@@ -1402,6 +1406,7 @@ void ricci_flow(Graph_t *g, int numIteration, int iterationIndex, const string& 
 //        calcStats(*g, numComponent, component);
         boost::dynamic_properties dpout;
         if (updateDistances(*g, oldRescaling)) {
+            cout << "----Updating distance \n"; 
             ginter = new Graph_t();
             Predicate predicate(g);
             Filtered_Graph_t fg(*g, predicate, predicate);
@@ -1414,8 +1419,10 @@ void ricci_flow(Graph_t *g, int numIteration, int iterationIndex, const string& 
             delete g;
             g = ginter;
         } else {
+
             dpout = gettingProperties<Graph_t,VertexType,EdgeType>(*g);
             write_graphml(outFile, *g, dpout, true);
+            cout << "-----saving graph into : " <<outFilename << endl; 
         }
 //        triangle_checker(*g,0);
 //        write_graphml(outFile, *g, dpout, true);
