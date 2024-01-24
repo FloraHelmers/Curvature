@@ -57,9 +57,9 @@ struct CablePredicate {// both edge and vertex
     typedef typename graph_traits<Graph_t>::vertex_descriptor Vertex;
     typedef typename graph_traits<Graph_t>::edge_descriptor Edge;
 
-    //explicit CablePredicate(Graph_t *g, string cableName): g(g),cableName(cableName){};
+    explicit CablePredicate(Graph_t *g, string cableName): g(g),cableName(cableName){};
     CablePredicate()= default;
-    //bool operator()(Edge e) const      {return (*g)[e].cableName!=cableName;}
+    bool operator()(Edge e) const      {return false;}
     bool operator()(Vertex vd) const { return true; }
     Graph_t *g;
     string cableName;
