@@ -14,6 +14,9 @@ In order to run the algorithm on a BGP graph (format graphml). Run the following
 
 **( -P** /home/Curvature/Results **-G** /home/Curvature/data/graph.graphml **-NI** 30 **)**
 
+pour sauvegarder le resultat : 
+
+`./Bgp -P result_directory -G graph_name -NI Number_of_Ricci_flow_iterations | tee results/file.txt`
 ### countries_BGP : to compute the Ricci flow on countries
 
 
